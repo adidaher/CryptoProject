@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="364.0" prefWidth="397.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
+   <children>
+      <Label layoutX="46.0" layoutY="105.0" text="username" />
+      <Label layoutX="47.0" layoutY="172.0" text="password" />
+      <Button fx:id="signInbtn" layoutX="153.0" layoutY="246.0" mnemonicParsing="false" onAction="#SignIn" text="signIn" />
+      <TextField fx:id="username" layoutX="124.0" layoutY="100.0" />
+      <TextField fx:id="password" layoutX="124.0" layoutY="167.0" />
+      <Label fx:id="errormsg" layoutX="69.0" layoutY="296.0" text="password or username is incorrect" textFill="RED" visible="false" />
+   </children>
+</Pane>
